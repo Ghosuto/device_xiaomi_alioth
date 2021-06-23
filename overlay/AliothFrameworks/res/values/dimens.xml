@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2009 The Android Open Source Project
+     Copyright (C) 2021 Paranoid Android
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -12,6 +12,12 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">126px</dimen>
+
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">22px</dimen>
 
     <!-- Height of the status bar.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
@@ -26,14 +32,5 @@
     <!-- The height of the quick settings footer that holds the user switcher, settings icon,
          etc. -->
     <dimen name="qs_footer_height">104dp</dimen>
-
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">115.0px</dimen>
-
-    <!-- for 20dp of padding at 3.5px/dp at default density -->
-    <dimen name="rounded_corner_content_padding">55.0px</dimen>
-
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">20.0px</dimen>
 
 </resources>

@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AG \
     SettingsProviderM2012K11AI
 
+PRODUCT_PACKAGES += \
+    AliothFrameworks \
+    AliothSystemUI
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
