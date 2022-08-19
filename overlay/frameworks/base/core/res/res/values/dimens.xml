@@ -30,6 +30,9 @@
     <!-- Radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">115.0px</dimen>
 
+    <!-- for 20dp of padding at 3.5px/dp at default density -->
+    <dimen name="rounded_corner_content_padding">55.0px</dimen>
+
     <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
     <dimen name="rounded_corner_radius_adjustment">20.0px</dimen>
 
