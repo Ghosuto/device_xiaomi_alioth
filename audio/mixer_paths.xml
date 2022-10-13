@@ -642,21 +642,6 @@
         <path name="echo-reference bt-sco" />
     </path>
 
-    <path name="echo-reference-voip-low-latency">
-        <ctl name="AUDIO_REF_EC_UL8 MUX" value="WSA_CDC_DMA_RX_0" />
-        <ctl name="EC Reference Channels" value="Two"/>
-    </path>
-
-    <path name="echo-reference-voip-low-latency handset">
-        <ctl name="AUDIO_REF_EC_UL8 MUX" value="WSA_CDC_DMA_RX_0" />
-        <ctl name="EC Reference Channels" value="One"/>
-    </path>
-
-    <path name="echo-reference-voip-low-latency headphones">
-        <ctl name="AUDIO_REF_EC_UL8 MUX" value="WSA_CDC_DMA_RX_0" />
-        <ctl name="EC Reference Channels" value="Two"/>
-    </path>
-
     <path name="echo-reference-voip">
         <ctl name="EC Reference Channels" value="One"/>
         <ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
@@ -1999,10 +1984,6 @@
         <path name="audio-record-compress2 bt-sco" />
     </path>
 
-    <path name="audio-record-compress2 bt-sco-wb">
-        <ctl name="MultiMedia17 Mixer SLIM_7_TX" value="1" />
-    </path>
-
     <path name="audio-record-compress2 bt-sco-swb">
         <path name="audio-record-compress2 bt-sco" />
     </path>
@@ -2548,10 +2529,6 @@
     </path>
 
     <!-- VoIP Tx settings -->
-    <path name="audio-record-voip-low-latency">
-        <ctl name="MultiMedia8 Mixer TX_CDC_DMA_TX_3" value="1" />
-    </path>
-
     <path name="audio-record-voip">
         <ctl name="MultiMedia10 Mixer TX_CDC_DMA_TX_3" value="1" />
     </path>
