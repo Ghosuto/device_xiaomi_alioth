@@ -60,5 +60,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Gcam
+$(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
