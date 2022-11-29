@@ -18,7 +18,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/alioth-miuicamera/products/miuic
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-spark
 
 PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AC \

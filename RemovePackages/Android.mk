@@ -8,10 +8,23 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome \
     Chrome-Stub \
     Drive \
+    PrebuiltGmail \
     GoogleCamera \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
+    GoogleTTS \
+    arcore \
+    Videos \
+    Velvet \
+    MaestroPrebuilt \
+    AndroidAutoStubPrebuilt \
+    talkback \
+    SafetyHubPrebuilt \
+    SoundAmplifierPrebuilt \
+    DevicePolicyPrebuilt \
+    SecurityHubPrebuilt \
+    FilesPrebuilt \
     obdm_stub \
     OemDmTrigger \
     OPScreenRecord \
